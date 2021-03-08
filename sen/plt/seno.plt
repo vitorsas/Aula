@@ -11,3 +11,4 @@ unset key
 set style line 1 pt 6 lc rgb "#ff00ff" lw 2.0 ps 2.0 
 set output "seno.tex"
 plot	"../data.dat" u ($0/10):($1) w l ls 1 t"{$pd=0.5$}", \
+  	 	"../data.dat" u ($0/10):($2) w l ls 1 t"{$pd=0.5$}", \
