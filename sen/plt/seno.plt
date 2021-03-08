@@ -8,6 +8,6 @@ set xtics  offset  0.0, 0.0 1
 set xrange [0.01:10]
 set yrange [-1:1]
 unset key 
-set style line 1 pt 6 lc rgb "#ff0000" lw 2.0 ps 2.0 
+set style line 1 pt 6 lc rgb "#0000ff" lw 2.0 ps 2.0 
 set output "seno.tex"
 plot	"../data.dat" u ($0/10):($1) w l ls 1 t"{$pd=0.5$}", \
