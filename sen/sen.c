@@ -10,7 +10,7 @@
 int main(int argc, char **argv){
 	double i=0;
 	while(i<100){
-		printf("%g\n",sin(i));
+		printf("%g %g\n", sin(i), cos(i));
 		i+=0.1;
 	}
 
